@@ -8,7 +8,7 @@
 public class Document
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int grade;
 
     /**
      * Constructor for objects of class Document
@@ -16,7 +16,7 @@ public class Document
     public Document()
     {
         // initialise instance variables
-        x = 0;
+        grade = 0;
     }
 
     /**
@@ -28,6 +28,6 @@ public class Document
     public int sampleMethod(int y)
     {
         // put your code here
-        return x + y;
+        return grade + y;
     }
 }
